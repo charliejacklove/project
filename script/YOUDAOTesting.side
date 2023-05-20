@@ -1,0 +1,1006 @@
+{
+  "id": "2f0aba15-f221-4620-a6fe-53a85a5276f2",
+  "version": "2.0",
+  "name": "Testing",
+  "url": "https://ai.youdao.com/product-fanyi-text.s",
+  "tests": [{
+    "id": "30c94d9f-c465-43ed-a245-f02ae49a6ab5",
+    "name": "Baidu translation ",
+    "commands": [{
+      "id": "e3d64230-6441-4019-88c6-3d3b8299187a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "697b4b9c-b0f3-42c4-a35a-e63e468e3ebc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1722x1034",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "858ed1ca-56ab-40b7-8f8b-b4c7b7908454",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=translate-button",
+      "targets": [
+        ["id=translate-button", "id"],
+        ["css=#translate-button", "css:finder"],
+        ["xpath=//a[@id='translate-button']", "xpath:attributes"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[4]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bce7f62d-8ab7-4fd3-a7d1-19f36dd46547",
+      "comment": "",
+      "command": "type",
+      "target": "id=baidu_translate_input",
+      "targets": [
+        ["id=baidu_translate_input", "id"],
+        ["css=#baidu_translate_input", "css:finder"],
+        ["xpath=//textarea[@id='baidu_translate_input']", "xpath:attributes"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div[2]/div/div/div/div[2]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "你好我今天吃了很多东西，你觉得今天的食物怎么样呢"
+    }, {
+      "id": "86032fe3-bb52-4511-9695-019f33ab20a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=translate-button",
+      "targets": [
+        ["id=translate-button", "id"],
+        ["css=#translate-button", "css:finder"],
+        ["xpath=//a[@id='translate-button']", "xpath:attributes"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[4]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "744ec9b8-3568-4d27-af31-dd3e934f74a5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=translate-button",
+      "targets": [
+        ["id=translate-button", "id"],
+        ["css=#translate-button", "css:finder"],
+        ["xpath=//a[@id='translate-button']", "xpath:attributes"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[4]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "205e6975-8cec-4851-9f37-64d5cd8d9f9e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=translate-button",
+      "targets": [
+        ["id=translate-button", "id"],
+        ["css=#translate-button", "css:finder"],
+        ["xpath=//a[@id='translate-button']", "xpath:attributes"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[4]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0008f3d-6a26-46f1-8cbe-4de179a847c9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.select-from-language > .select-inner",
+      "targets": [
+        ["css=.select-from-language > .select-inner", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f9eb8e9-f299-4933-8df4-2be47a5d014e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.select-from-language > .select-inner",
+      "targets": [
+        ["css=.select-from-language > .select-inner", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef725d9c-5a69-4332-90a9-efb1fbbaa391",
+      "comment": "",
+      "command": "click",
+      "target": "css=.language-selected > span",
+      "targets": [
+        ["css=.language-selected > span", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3893bd9f-eaf5-4ae7-ac3b-4a02aef6607f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.language-selected > span",
+      "targets": [
+        ["css=.language-selected > span", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec0b5cc1-e70c-4427-858c-5abcdcf47b20",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.language-selected > span",
+      "targets": [
+        ["css=.language-selected > span", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35882555-4ff6-4be0-8c85-043fede2c6ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrow:nth-child(2)",
+      "targets": [
+        ["css=.arrow:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[3]/span/i", "xpath:idRelative"],
+        ["xpath=//a[3]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9eb74f26-e937-4e9f-bed9-71e8abc92408",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lang-arrow-up",
+      "targets": [
+        ["css=.lang-arrow-up", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[3]/span/i", "xpath:idRelative"],
+        ["xpath=//a[3]/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68bf80cd-9124-4831-8ee1-2de0df06b59c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-to-language > .select-inner",
+      "targets": [
+        ["css=.select-to-language > .select-inner", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[3]/span", "xpath:idRelative"],
+        ["xpath=//a[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c45a5c9-c8a7-4e82-bf74-bf74fa433863",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.select-to-language > .select-inner",
+      "targets": [
+        ["css=.select-to-language > .select-inner", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[3]/span", "xpath:idRelative"],
+        ["xpath=//a[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b2f60d8-0974-4e6f-bbf4-0ebb1d8a7e0d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.select-to-language > .select-inner",
+      "targets": [
+        ["css=.select-to-language > .select-inner", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[3]/span", "xpath:idRelative"],
+        ["xpath=//a[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51040a71-3356-4045-9997-2b57233bc81c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.letter-block:nth-child(1) .lang-item:nth-child(1)",
+      "targets": [
+        ["css=.letter-block:nth-child(1) .lang-item:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='lang-panel-container']/div/div[5]/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'阿拉伯语')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b32a74d5-c278-4ea4-867e-70b8e1438066",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=阿拉伯语",
+      "targets": [
+        ["linkText=阿拉伯语", "linkText"],
+        ["css=.select-to-language", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[3]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a60c68c-9e9c-448e-a2ec-5b8acefaacb5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=阿拉伯语",
+      "targets": [
+        ["linkText=阿拉伯语", "linkText"],
+        ["css=.select-to-language", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[3]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f647994-cb57-40f0-bab7-be1cac1c7d7c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-to-language > .select-inner",
+      "targets": [
+        ["css=.select-to-language > .select-inner", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[3]/span", "xpath:idRelative"],
+        ["xpath=//a[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc582968-5631-4381-a678-06dfa402df06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.letter-block:nth-child(1) .lang-item:nth-child(5)",
+      "targets": [
+        ["css=.letter-block:nth-child(1) .lang-item:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='lang-panel-container']/div/div[5]/div/div/div/span[5]", "xpath:idRelative"],
+        ["xpath=//span[5]", "xpath:position"],
+        ["xpath=//span[contains(.,'爱尔兰语')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19367c04-0e24-4d27-aa3b-087181b0a8cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.target-output",
+      "targets": [
+        ["css=.target-output", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div[2]/div/div[2]/div/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Halló, ithe mé go leor inniu. Cad a cheapann tú an bia inniu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dceb9902-2d64-4e5e-bfbe-54301ff2f6c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.textarea-clear-btn",
+      "targets": [
+        ["css=.textarea-clear-btn", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div[2]/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '###')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a01da75e-156b-45e8-8d4d-02ddc3a32a32",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-wrap",
+      "targets": [
+        ["css=.input-wrap", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div[2]/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbee43ac-adcf-4e9a-bc25-b0016a58a309",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=translate-button",
+      "targets": [
+        ["id=translate-button", "id"],
+        ["css=#translate-button", "css:finder"],
+        ["xpath=//a[@id='translate-button']", "xpath:attributes"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[4]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86313072-c262-4b78-95d8-a41c64a5bdff",
+      "comment": "",
+      "command": "type",
+      "target": "id=baidu_translate_input",
+      "targets": [
+        ["id=baidu_translate_input", "id"],
+        ["css=#baidu_translate_input", "css:finder"],
+        ["xpath=//textarea[@id='baidu_translate_input']", "xpath:attributes"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div[2]/div/div/div/div[2]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Halló, ithe mé go leor inniu. Cad a cheapann tú an bia inniu"
+    }, {
+      "id": "a59c27f4-1962-440e-b33a-c3bd13599130",
+      "comment": "",
+      "command": "click",
+      "target": "id=translate-button",
+      "targets": [
+        ["id=translate-button", "id"],
+        ["css=#translate-button", "css:finder"],
+        ["xpath=//a[@id='translate-button']", "xpath:attributes"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[4]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d101cbe5-de61-4fe0-9e73-f1f42e933db2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=translate-button",
+      "targets": [
+        ["id=translate-button", "id"],
+        ["css=#translate-button", "css:finder"],
+        ["xpath=//a[@id='translate-button']", "xpath:attributes"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[4]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "daa33820-73dd-4a8e-8479-4c4c02d06c9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-to-language > .select-inner",
+      "targets": [
+        ["css=.select-to-language > .select-inner", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[3]/span", "xpath:idRelative"],
+        ["xpath=//a[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9cd7678-0c12-4edd-9b1c-4f4b5ae7150e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.letter-block:nth-child(22) .lang-item:nth-child(1)",
+      "targets": [
+        ["css=.letter-block:nth-child(22) .lang-item:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='lang-panel-container']/div/div[5]/div/div[22]/div/span", "xpath:idRelative"],
+        ["xpath=//div[22]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'中文(简体)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "540ea57e-857c-4d65-89c2-c3c20c14ff26",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=translate-button",
+      "targets": [
+        ["id=translate-button", "id"],
+        ["css=#translate-button", "css:finder"],
+        ["xpath=//a[@id='translate-button']", "xpath:attributes"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[4]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c96083cb-8feb-4224-8d00-232131691bbb",
+      "comment": "",
+      "command": "click",
+      "target": "id=translate-button",
+      "targets": [
+        ["id=translate-button", "id"],
+        ["css=#translate-button", "css:finder"],
+        ["xpath=//a[@id='translate-button']", "xpath:attributes"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[4]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0b9ea98-38e5-4cd3-afec-9e9c036473ef",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=translate-button",
+      "targets": [
+        ["id=translate-button", "id"],
+        ["css=#translate-button", "css:finder"],
+        ["xpath=//a[@id='translate-button']", "xpath:attributes"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[4]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab40782c-1a24-4b73-ae27-1e319296a310",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-inner",
+      "targets": [
+        ["css=.main-inner", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div", "xpath:idRelative"],
+        ["xpath=//body/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebe3f6ff-62f5-45f9-bff4-264d7e6d4ddf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.output-mod",
+      "targets": [
+        ["css=.output-mod", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div[2]/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//body/div/div[2]/div/div/div/div[2]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60a44f47-2763-46da-b3a9-7dc2a947c971",
+      "comment": "",
+      "command": "click",
+      "target": "css=.textarea-clear-btn",
+      "targets": [
+        ["css=.textarea-clear-btn", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div[2]/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '###')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c06b28ef-61b1-430e-b13a-dc47706a9c38",
+      "comment": "",
+      "command": "click",
+      "target": "id=baidu_translate_input",
+      "targets": [
+        ["id=baidu_translate_input", "id"],
+        ["css=#baidu_translate_input", "css:finder"],
+        ["xpath=//textarea[@id='baidu_translate_input']", "xpath:attributes"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div[2]/div/div/div/div[2]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7c20cef-1838-4776-9672-0a4005f7a659",
+      "comment": "",
+      "command": "click",
+      "target": "id=baidu_translate_input",
+      "targets": [
+        ["id=baidu_translate_input", "id"],
+        ["css=#baidu_translate_input", "css:finder"],
+        ["xpath=//textarea[@id='baidu_translate_input']", "xpath:attributes"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div[2]/div/div/div/div[2]/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a660167-e4f7-4942-88db-97b4027bc96c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.output-wrap",
+      "targets": [
+        ["css=.output-wrap", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div[2]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbb3562a-1047-475d-b7d5-a3e656b82040",
+      "comment": "",
+      "command": "click",
+      "target": "css=.history-btn",
+      "targets": [
+        ["css=.history-btn", "css:finder"],
+        ["xpath=//div[@id='history-wrap']/div/span[5]", "xpath:idRelative"],
+        ["xpath=//span[5]", "xpath:position"],
+        ["xpath=//span[contains(.,'翻译记录')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2012594e-8405-4235-861a-14241c4b0628",
+      "comment": "",
+      "command": "click",
+      "target": "css=.history-modal-item:nth-child(6) > .history-text",
+      "targets": [
+        ["css=.history-modal-item:nth-child(6) > .history-text", "css:finder"],
+        ["xpath=//span[6]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f5d462d-b80d-4241-be55-b1faed9a2e91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.output-wrap",
+      "targets": [
+        ["css=.output-wrap", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div[2]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//body/div/div[2]/div/div/div/div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "413dc20f-9610-4d00-9784-3dae8e776ad3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.domain-trans-large > .domain-trans-bottom > .domain-trans-item-wrapper:nth-child(1)",
+      "targets": [
+        ["css=.domain-trans-large > .domain-trans-bottom > .domain-trans-item-wrapper:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div[5]/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d797cc4-76eb-4a87-bacf-c44d2f8f465c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.domain-trans-item-wrapper:nth-child(1) > .domain-trans-et > span:nth-child(1)",
+      "targets": [
+        ["css=.domain-trans-item-wrapper:nth-child(1) > .domain-trans-et > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div[5]/div/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'电子科技')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65f4465f-f9ef-4ffe-9399-5405317c9e46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.domain-trans-item-wrapper:nth-child(2) > .domain-trans-bm > span:nth-child(1)",
+      "targets": [
+        ["css=.domain-trans-item-wrapper:nth-child(2) > .domain-trans-bm > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div/div[5]/div/div/div/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'生物医药')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1679f1ae-6b80-4f3c-9629-874d3a171d89",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ordinary-output:nth-child(2)",
+      "targets": [
+        ["css=.ordinary-output:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='main-outer']/div/div/div/div[2]/div/div[2]/div/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'该过程首先建立几组集合，如图21所示，其中x表示数据的矢量，y表示数据的特征值。在人脸识别中，x表示人脸的长度或宽度，而y表示用户希望识别的器官。例如，在Iris数据集中，x表示叶子的长度或宽度，y表示Iris的种类。计算机如何使用特定算法获得物品的特征值，图片输入以像素为单位，计算机使用特殊方法提取物体的特征值。本质上，分类OpenCv通过类似于KNN的方式检索特征值，在KNN中遍历图片，如果用户请求的特征值是鼻子，则计算机生成鼻子的完整图像。它提供的方法的第三个参数是用户输入，其目的是表明每个特征值必须被检测至少n次，才能被视为真正的目标，其数学公式如图22所示；特征值必须具有围绕它的至少四到五个目标才能用作特征值；否则，将不允许将其用作特征值。')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57348ac4-fc2c-42f3-ba8e-30d1d1c2e060",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=face recognition",
+      "targets": [
+        ["linkText=face recognition", "linkText"],
+        ["css=.keywords-content:nth-child(1) .keywords-word", "css:finder"],
+        ["xpath=//a[contains(text(),'face recognition')]", "xpath:link"],
+        ["xpath=//div[@id='left-result-container']/div[2]/div/ul/li/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:')])[23]", "xpath:href"],
+        ["xpath=//li/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'face recognition')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa1b2e60-e5f9-4222-b00f-a2e88df6bdf3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=超好用的手机词典",
+      "targets": [
+        ["linkText=超好用的手机词典", "linkText"],
+        ["css=.sideQrContainer", "css:finder"],
+        ["xpath=(//a[contains(@href, 'javascript:')])[53]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'超好用的手机词典')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfdfb903-03d3-4b4b-bfb7-abf5fd59d2c2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1e55beec-7ff6-48ee-be73-93c5fab66182",
+    "name": "YouDaoTranslation",
+    "commands": [{
+      "id": "64b662e9-7c3b-422c-bf01-f64c88ea72cf",
+      "comment": "",
+      "command": "open",
+      "target": "https://ai.youdao.com/product-fanyi-text.s",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "715dc8ab-a192-43e7-95eb-4be20b799df5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1722x1034",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93642824-bea1-422f-957f-eee6e76f4b36",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputText",
+      "targets": [
+        ["id=inputText", "id"],
+        ["name=i", "name"],
+        ["css=#inputText", "css:finder"],
+        ["xpath=//textarea[@id='inputText']", "xpath:attributes"],
+        ["xpath=//div[@id='inputContent']/textarea", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/textarea", "xpath:position"]
+      ],
+      "value": "你好我今天吃了很多东西"
+    }, {
+      "id": "bf269f41-18c3-40d6-a5cb-ad1c8159d1a9",
+      "comment": "",
+      "command": "click",
+      "target": "id=translateBtn",
+      "targets": [
+        ["id=translateBtn", "id"],
+        ["linkText=翻译", "linkText"],
+        ["name=action", "name"],
+        ["css=#translateBtn", "css:finder"],
+        ["xpath=(//a[contains(text(),'翻译')])[9]", "xpath:link"],
+        ["xpath=//a[@id='translateBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='transForm']/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[213]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d737c016-8284-4610-b1a9-10c4b92dba92",
+      "comment": "",
+      "command": "click",
+      "target": "id=customSelectBtn",
+      "targets": [
+        ["id=customSelectBtn", "id"],
+        ["css=#customSelectBtn", "css:finder"],
+        ["xpath=//div[@id='customSelectBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='transForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "205f6b11-79e2-4e7a-9572-eda51d762765",
+      "comment": "",
+      "command": "click",
+      "target": "id=outputMod",
+      "targets": [
+        ["id=outputMod", "id"],
+        ["css=#outputMod", "css:finder"],
+        ["xpath=//div[@id='outputMod']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31a62c5f-d6d1-4695-883d-ca83eff3de01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tgt",
+      "targets": [
+        ["css=.tgt", "css:finder"],
+        ["xpath=//div[@id='trans_result']/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7df82bce-df6b-455e-8be5-5445424c0d69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tgt",
+      "targets": [
+        ["css=.tgt", "css:finder"],
+        ["xpath=//div[@id='trans_result']/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71143692-618a-4f0a-9b50-838a3cf4137b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tgt",
+      "targets": [
+        ["css=.tgt", "css:finder"],
+        ["xpath=//div[@id='trans_result']/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66b1293a-4442-4b9f-b2d5-ae98df0bd8c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputContent",
+      "targets": [
+        ["id=inputContent", "id"],
+        ["css=#inputContent", "css:finder"],
+        ["xpath=//div[@id='inputContent']", "xpath:attributes"],
+        ["xpath=//form[@id='transForm']/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d01a42a5-dcf6-448c-8ef8-c5824745c1a6",
+      "comment": "",
+      "command": "click",
+      "target": "id=clearInput",
+      "targets": [
+        ["id=clearInput", "id"],
+        ["css=#clearInput", "css:finder"],
+        ["xpath=//div[@id='clearInput']", "xpath:attributes"],
+        ["xpath=//form[@id='transForm']/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/form/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c413994-148e-439a-bc86-9521539b0bd1",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputText",
+      "targets": [
+        ["id=inputText", "id"],
+        ["name=i", "name"],
+        ["css=#inputText", "css:finder"],
+        ["xpath=//textarea[@id='inputText']", "xpath:attributes"],
+        ["xpath=//div[@id='inputContent']/textarea", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4d8064a-36d6-4208-9025-fbde9043d400",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputText",
+      "targets": [
+        ["id=inputText", "id"],
+        ["name=i", "name"],
+        ["css=#inputText", "css:finder"],
+        ["xpath=//textarea[@id='inputText']", "xpath:attributes"],
+        ["xpath=//div[@id='inputContent']/textarea", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/textarea", "xpath:position"]
+      ],
+      "value": "Hi, I ate a lot today"
+    }, {
+      "id": "5324057f-e48f-4542-9df8-a67858f72ab7",
+      "comment": "",
+      "command": "click",
+      "target": "id=translateBtn",
+      "targets": [
+        ["id=translateBtn", "id"],
+        ["linkText=翻译", "linkText"],
+        ["name=action", "name"],
+        ["css=#translateBtn", "css:finder"],
+        ["xpath=(//a[contains(text(),'翻译')])[9]", "xpath:link"],
+        ["xpath=//a[@id='translateBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='transForm']/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[213]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e615d42-6d63-4cb6-bce8-8c8f43b06390",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=translateBtn",
+      "targets": [
+        ["id=translateBtn", "id"],
+        ["linkText=翻译", "linkText"],
+        ["name=action", "name"],
+        ["css=#translateBtn", "css:finder"],
+        ["xpath=(//a[contains(text(),'翻译')])[9]", "xpath:link"],
+        ["xpath=//a[@id='translateBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='transForm']/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[213]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bad93c00-6d53-472b-b71e-902e71561138",
+      "comment": "",
+      "command": "click",
+      "target": "id=customSelectBtn",
+      "targets": [
+        ["id=customSelectBtn", "id"],
+        ["css=#customSelectBtn", "css:finder"],
+        ["xpath=//div[@id='customSelectBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='transForm']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7aa97577-6a6a-434a-b578-c9a794943815",
+      "comment": "",
+      "command": "click",
+      "target": "css=.advantage",
+      "targets": [
+        ["css=.advantage", "css:finder"],
+        ["xpath=//div/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b32998b4-f7ba-4034-9142-cede53acc562",
+      "comment": "",
+      "command": "click",
+      "target": "css=.advantage",
+      "targets": [
+        ["css=.advantage", "css:finder"],
+        ["xpath=//div/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f82f0f0-ea02-4265-999e-16f88702e007",
+      "comment": "",
+      "command": "click",
+      "target": "css=.application",
+      "targets": [
+        ["css=.application", "css:finder"],
+        ["xpath=//div/div/div/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "926e84d0-e6af-4545-909e-af3f3b608fb1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.location-container",
+      "targets": [
+        ["css=.location-container", "css:finder"],
+        ["xpath=//div[5]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8870ffec-8ff3-4084-9693-5614a6ec2c9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.experience",
+      "targets": [
+        ["css=.experience", "css:finder"],
+        ["xpath=//div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0ecc65c-0f24-45d0-b40c-27e9de96fc7c",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputText",
+      "targets": [
+        ["id=inputText", "id"],
+        ["name=i", "name"],
+        ["css=#inputText", "css:finder"],
+        ["xpath=//textarea[@id='inputText']", "xpath:attributes"],
+        ["xpath=//div[@id='inputContent']/textarea", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43f07f60-5af3-443d-a3f9-e1befe862fb7",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputText",
+      "targets": [
+        ["id=inputText", "id"],
+        ["name=i", "name"],
+        ["css=#inputText", "css:finder"],
+        ["xpath=//textarea[@id='inputText']", "xpath:attributes"],
+        ["xpath=//div[@id='inputContent']/textarea", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/textarea", "xpath:position"]
+      ],
+      "value": "Hi, I ate a lot today."
+    }, {
+      "id": "f319329b-478c-4a58-a87a-07407269ee88",
+      "comment": "",
+      "command": "click",
+      "target": "id=translateBtn",
+      "targets": [
+        ["id=translateBtn", "id"],
+        ["linkText=翻译", "linkText"],
+        ["name=action", "name"],
+        ["css=#translateBtn", "css:finder"],
+        ["xpath=(//a[contains(text(),'翻译')])[9]", "xpath:link"],
+        ["xpath=//a[@id='translateBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='transForm']/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[213]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "502bf824-5b57-4ba2-9c97-9b36020e2f16",
+      "comment": "",
+      "command": "click",
+      "target": "id=tran-type",
+      "targets": [
+        ["id=tran-type", "id"],
+        ["name=tran-type", "name"],
+        ["css=#tran-type", "css:finder"],
+        ["xpath=//select[@id='tran-type']", "xpath:attributes"],
+        ["xpath=//div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27e45a29-2436-44be-8bd5-d2fb45e7abc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.location-container",
+      "targets": [
+        ["css=.location-container", "css:finder"],
+        ["xpath=//div[5]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19cae79c-0cf2-4e1b-b36c-b8b6a09ddc31",
+      "comment": "",
+      "command": "click",
+      "target": "id=tran-type",
+      "targets": [
+        ["id=tran-type", "id"],
+        ["name=tran-type", "name"],
+        ["css=#tran-type", "css:finder"],
+        ["xpath=//select[@id='tran-type']", "xpath:attributes"],
+        ["xpath=//div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ed8506c-c1f3-47de-b64b-2c12ec6e57b0",
+      "comment": "",
+      "command": "select",
+      "target": "id=tran-type",
+      "targets": [],
+      "value": "label=实时语音翻译"
+    }, {
+      "id": "67363bd6-c184-4248-9f23-c0c12984c6ba",
+      "comment": "",
+      "command": "click",
+      "target": "id=translateBtn",
+      "targets": [
+        ["id=translateBtn", "id"],
+        ["linkText=翻译", "linkText"],
+        ["name=action", "name"],
+        ["css=#translateBtn", "css:finder"],
+        ["xpath=(//a[contains(text(),'翻译')])[9]", "xpath:link"],
+        ["xpath=//a[@id='translateBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='transForm']/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[213]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6746aaef-9826-4805-8b5f-1e64d23bd3ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputText",
+      "targets": [
+        ["id=inputText", "id"],
+        ["name=i", "name"],
+        ["css=#inputText", "css:finder"],
+        ["xpath=//textarea[@id='inputText']", "xpath:attributes"],
+        ["xpath=//div[@id='inputContent']/textarea", "xpath:idRelative"],
+        ["xpath=//div/div/div/form/div[2]/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7e5a510-3d2d-4ee7-8409-0fabc2570e71",
+      "comment": "",
+      "command": "click",
+      "target": "id=close-btn",
+      "targets": [
+        ["id=close-btn", "id"],
+        ["css=#close-btn", "css:finder"],
+        ["xpath=//img[@id='close-btn']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5525365c-c99b-4c10-8368-e735c1a6aed6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["30c94d9f-c465-43ed-a245-f02ae49a6ab5"]
+  }],
+  "urls": ["https://fanyi.baidu.com/", "https://ai.youdao.com/product-fanyi-text.s"],
+  "plugins": []
+}
